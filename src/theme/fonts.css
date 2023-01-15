@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Terminal';
+    src: local('Terminal'), url(../fonts/SvBasicManual.ttf) format('truetype');
+  }
