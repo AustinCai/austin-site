@@ -49,7 +49,9 @@ function App() {
           justifyContent="space-between"
         >
           <Stack>
-            <Typography variant="h2">Hi, I'm Austin!</Typography>
+            <Typography variant="h2" mb={2}>
+              Hi, I'm Austin!
+            </Typography>
             <Typography>
               Welcome to my website! This is a work in progress, but in the
               meantime here are some links you might find interesting:
@@ -72,6 +74,15 @@ function App() {
                 >
                   <Typography>Art</Typography>
                 </Link>
+              </ListItem>
+              <ListItem>
+                <Typography>Thoughts</Typography>
+              </ListItem>
+              <ListItem>
+                <Typography>Readings</Typography>
+              </ListItem>
+              <ListItem>
+                <Typography>Travels</Typography>
               </ListItem>
             </List>
           </Stack>
