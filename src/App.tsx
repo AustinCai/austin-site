@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Stack } from '@mui/material'
+import headshot from './images/austin_headshot.jpeg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack m={2} flexDirection="row" justifyContent="space-between">
+      <Stack>
+        <h1>Hi, I'm Austin!</h1>
+        <p>Welcome to my website!</p>
+      </Stack>
+      <Stack>
+        <img src={headshot} alt={"Headshot of Austin"} style={{width: 200, height: 200, borderRadius: 100}}></img>
+      </Stack>
+    </Stack>
   );
 }
 
